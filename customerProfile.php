@@ -236,7 +236,7 @@
 
         <section class="section">
             <div class="row">
-                <div class="col-lg-4">
+                <div class="col-lg-5">
 
                     <?php include "dbconnection.php";
 
@@ -248,7 +248,7 @@
                         <div class="card">
                             <div class="card-body profile-card pt-4 d-flex flex-column align-items-center">
 
-                                <img src="assets/img/profile-img.jpg" alt="Profile" id="profile-pic" class="rounded-circle">
+                                <img src="assets/img/avatar.png" alt="Profile" id="profile-pic" class="rounded-circle">
                                 <h2 class="pt-3"><?php echo $row['customer_firstname']; ?></h2>
                                 <h3><?php echo $row['customer_lastname']; ?></h3>
                             </div>
@@ -256,7 +256,7 @@
 
                 </div>
 
-                <div class="col-xl-8">
+                <div class="col-xl-7">
 
                     <div class="card">
                         <div class="card-body pt-1">
