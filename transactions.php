@@ -233,7 +233,7 @@
                 </div>
 
                 <div class="col-lg-6 d-flex justify-content-end">
-                    <a role="button" href="newTransaction.php" class="btn btn-outline-success">Add Transaction</a>
+                    <a role="button" href="newTransaction.php" class="btn btn-success">Add Transaction</a>
                 </div>
 
             </nav>
